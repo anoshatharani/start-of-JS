@@ -92,3 +92,57 @@
 // let g = undefined
 // console.log(a,b,c,d,e,f,g)
 // console.log(typeof d)
+//---------------------practice set
+// let name = "anosha" + "18"
+// console.log (name)
+// console.log (typeof name)
+// //-----------------OR
+// let a = "Anosha"
+// let b = 18
+// console.log (a + b)
+// console.log (typeof (a+b)) // for multiple datatype checking we use ()
+//------------------Math expressions
+// var num = 4
+// var num2 = 6
+// var mod = num % num2
+// console.log (mod)
+// --------------------modulus
+// var num = 9
+// var num1 = 9
+// var mod = num%num1 // 0
+// console.log(mod)
+// console.log(8%22) //8
+// console.log(4%2) // 0
+// console.log(5%22) // 5
+// --------------------post & pri incriment
+// var num = 8; //9,10,11
+// var num2 = 10; //11
+//               // 8    11        9       11 =39
+//  var result = num++ + ++num2 + num++ + ++num
+// console.log(result)
+// var num = 9; //10,10,11
+// var num2 =3; //3,4,5,6,6
+// //            9      10    10       3      4       5         5
+// var result = num++ + num + num++ + num2 + ++num2 + ++num2 + num2++ 
+// //6      11 =51
+// - num2 + num
+// console.log(result)
+// console.log(6+6+"32"+2-10) //12312
+// console.log(3+3*"4"-2) //13 
+// console.log(2+"2"+6) // 226
+// console.log(0+"0"+6) //006
+// console.log(5/8+4-"8"+3*4-2) // 6.625
+// --------------------------------if statements
+//syntax 1-if 2-paranthesis (conditions) 3-curlybracket blockofcode
+// if (5=="5") {
+//     console.log (true)
+// }else {
+//         console.log (false)
+
+// }
+// if (5==="5") {
+//     console.log (true)
+// }else {
+//         console.log (false)
+
+// }

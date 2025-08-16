@@ -146,3 +146,49 @@
 //         console.log (false)
 
 // }
+//--------------------
+// var userinp = +prompt("ENTER YOUR AGE HERE")
+// if (userinp%2 == 0){
+//     console.log ("EVEN")
+// }else {
+//     console.log ("odd")
+// }
+//--------------------SETS OF CONDITION---------------
+//--------------&& AND operator
+//Sare true milna zaroori hai.
+//or pehla hi false milega tou agae nh barhega.
+// &&and mtlb dono
+// if (8 > 5 && 4 === "four") { //false
+//     console.log(true)
+// } else {
+//     console.log(false)
+
+// }
+// if (8 == 8 && "rat" === "Rat") { //false
+//     console.log(true)
+// } else {
+//     console.log(false)
+
+// }
+// if (8 + 5 == 13 && 8 + 6 == 14) { // true
+//     console.log(true)
+// } else {
+//     console.log(false)
+
+// }
+// if (5 == 5 && 6 < 7 && 0 && "true" && false) { //false
+//     console.log(true)
+// } else {
+//     console.log(false)
+
+// }
+// if (5 == 5 && true && "true" && "sana" && 6 && 6 < 7) { //true
+//     console.log(true)
+// } else {
+//     console.log(false)
+
+// }
+//-------------------------OR || Operator----------
+//isko true dhundna hai ab pehle mile ya akhir mai kahi bh mile.
+//jaise hi true mila value true hogaa....
+

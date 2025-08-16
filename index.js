@@ -190,5 +190,75 @@
 // }
 //-------------------------OR || Operator----------
 //isko true dhundna hai ab pehle mile ya akhir mai kahi bh mile.
-//jaise hi true mila value true hogaa....
+//jaise hi true mila value true hogaa pehle true pr opeartion khatam....
+// if (5 == 13 || 6 == 14) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+//-------------not ! Operator --------------------
+//ulti bt krta hai ye
+
+
+
+
+
+
+
+
+
+
+//----------------ARRAYS is a type of object (non-primitive)
+//array back pr ek object hai
+//for collection data we used array
+//array ki pehchaan hai name me (s) lagagega identifier me (s)
+// var animals=["elephant" , "lion" , "monkey" , "cat"]
+// console.log(animals)
+// console.log(animals.length) //4 and it starts from 1
+// console.log(animals.index) //3  bcz it starts from 0
+// console.log(animals[1]) //array index se call hota hai
+// animals[4]="bear" //reassign method its mutable means changeable
+// console.log(animals)
+// animals[2]="lion" // isme isne monkey remove hi krdia reassign me
+// console.log(animals)
+//-------------array.pop last value delete krta hai
+//return pop value krta hai
+// animals.pop()
+// console.log(animals) //last value dlt hogaya
+// var animalsdlt = animals.pop()
+// console.log(animalsdlt) // isme value define hui kia dlt hua
+
+//----------------array push last me value add krta hai
+// return new array length
+// animals.push(5) //no bh add krskte hain
+// animals.push("giraffe" , "bear")
+// console.log(animals) //last me value add ho gayi
+// var check = animals.push("chheetah")
+// console.log(animals)
+// var animalsdlt = animals.push() //isme isne no of length return kraa
+// console.log(animalsdlt)
+// console.log(animals)
+
+//--------------------shift remove 1st element in arrays
+//------------------unshift add 1st element in arrays
+// animals.shift()
+// console.log(animals) //dlt krdi 1st value
+// animals.unshift("kitty")
+// console.log(animals) //add krdia 1st pr
+//--------------------splice has 3 parameter
+//kaha se dlt krna , kitna dlt krna , kiaa add krna 
+var animals=["elephant" , "lion" , "monkey" , "cat"]
+console.log(animals) 
+// animals.splice(2,1)
+// console.log(animals) 
+// animals.splice(2,0,"cheetah")
+// console.log(animals) 
+n
+
+
+
+
+
+
+
 
